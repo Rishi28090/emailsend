@@ -9,7 +9,7 @@ const server = http.createServer((request, response) => {
         port: 465, // SSL port
         secure: true, // Use true for port 465, false for 587
         auth: {
-            user: "freshhire38@gmail.com", // Replace with your Gmail
+            user: "", // Replace with your Gmail
             pass: "",    // Replace with your app password
         },
     });
@@ -25,8 +25,8 @@ const server = http.createServer((request, response) => {
         }
 
         const mailOptions = {
-            from: "freshhire38@gmail.com",  // Sender email
-            to: "parthp0712@gmail.com", // Receiver email
+            from: "",  // Sender email
+            to: "", // Receiver email
             subject: "Your Application Has Been Shortlisted",
             html: htmlContent, // Use the read HTML content
         };
