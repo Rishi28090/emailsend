@@ -10,7 +10,7 @@ const server = http.createServer((request, response) => {
         secure: true, // Use true for port 465, false for 587
         auth: {
             user: "freshhire38@gmail.com", // Replace with your Gmail
-            pass: "pekmqizalfweefoj",    // Replace with your app password
+            pass: "",    // Replace with your app password
         },
     });
 
